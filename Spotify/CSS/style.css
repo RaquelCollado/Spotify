@@ -1,0 +1,15 @@
+.header{
+    background-color: black;
+}
+.logoSpotify{
+    width: 50px;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.menuSpotify{
+    width: 15px;
+    float: right;
+    padding-right: 10px;
+    padding-top: 5px;
+}    
