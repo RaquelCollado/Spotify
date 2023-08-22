@@ -34,17 +34,3 @@
     padding-bottom: 5px;
     display:block;
 }
-
-.small-text{
-    font-size:8px;
-}
-
-.section2{
-    display:flex;
-    flex-direction:column;
-}
-
-.img-section2{
-    width:100px;
-}
-
