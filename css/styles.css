@@ -59,6 +59,7 @@
 .section2{
     font-family: var(--font-family);
     padding-bottom: 70px;
+    padding-left: 5px;
 }
 h2{
     text-align: center;
@@ -84,6 +85,40 @@ h2{
     
 }
 
+.footer{
+    background-color:black;
+    color:grey;
+    font-family: var(--font-family);
+    font-size:8px;
+    padding-right:15px;
+    padding-left:15px;
+    height:10vh;
+    padding-top:15px;
+    
+}
+.spain{
+    display:flex;
+    float:right;
+}
 
-
-
+.spotify-footer{
+    float:right;
+    text-align: right;
+}
+.spain-flag{
+    width:20px;
+}
+.spain-flag img{
+    width:100%;
+}
+.legal-cookies{
+    display:flex;
+    list-style:none;
+    gap:5px;
+    padding-bottom:15px;
+    
+}
+.info{
+    text-decoration:none;
+    color: grey;
+}
