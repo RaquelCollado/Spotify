@@ -128,13 +128,15 @@ h2{
     color: grey;
 }
 
-@media(min-width:480px)(max-width:1000px){
+@media (min-width:480px) and (max-width:1000px){
 
     .menuSpotify{
         display:none;
     }
     .mediatablet{
         display:flex;
+        color: white;
+        text-align: right;
     }
 
 }
