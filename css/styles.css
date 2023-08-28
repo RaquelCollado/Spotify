@@ -21,7 +21,12 @@
     padding-right: 10px;
     margin-top: var(--margin-top);
    
-}    
+} 
+
+.mediatablet{
+    display:none;
+}
+
 .hero{
     display:flex;
     height:50vh;
@@ -125,10 +130,12 @@ h2{
 
 @media(min-width:480px)(max-width:1000px){
 
+    .menuSpotify{
+        display:none;
+    }
+    .mediatablet{
+        display:flex;
+    }
 
 }
 
-
-
-
-}
