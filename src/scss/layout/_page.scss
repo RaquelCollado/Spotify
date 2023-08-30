@@ -26,6 +26,9 @@
     padding-bottom: 5px;
     padding-top: 10px;
     display:block;
+    @media (min-width:480px) and (max-width:1000px) {
+      width:15%;
+    }
   }
   .small-text{
     padding-top: 5px;
@@ -59,4 +62,11 @@
   .h3{
     padding-bottom: 20px;
     
+  }
+  @media (min-width:480px) and (max-width:1000px) {
+    .ul-section2{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+    }
   }

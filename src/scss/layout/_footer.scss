@@ -35,3 +35,24 @@
   text-decoration:none;
   color: grey;
 }
+@media (min-width:480px) and (max-width:1000px){
+  
+  .nav-footer{
+    display: grid;
+    width: 30%;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+  
+  }
+  .legal-cookies{
+    padding-bottom: 0px;
+    grid-row: 1/2;
+    display:flex;
+    justify-content: start;
+    align-items: end;
+
+  }
+  .info{
+    
+  }
+}
