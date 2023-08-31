@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singup Spotify</title>
+</head>
+<body>
+    <header>
+      <h1>Registrate gratis para escuchar </h1>
+    </header> 
+    <fieldset>
+        <legend> Registrarte con tu correo electronico: </legend>
+        <label for="email"> ¿cual es tu correo electronico?</label>
+        <input placeholder="pon tu correo electronico" type="email" id="email" name="email"/>
+        <label for="email-2"> Confirma el correo electronico </label>
+        <input placeholder="vuelve a poner tu correo electronico" type="email" id="email-2" name="email"/>
+        <label for="password"> Crea una contraseña </label>
+        <input placeholder="Crea una contraseña" type="password" id="password" name="password"/>
+        <label for="name"> Como quieres que te llamemos </label>
+        <input placeholder="Pon un nombre de perfil" type="text" id="name" name="name"/>
+        <label for="birthday"> Cual es tu fecha de nacimiento </label>
+        <input type="date" id="birthday" name="birthday"/>
+        <h3> Cual es tu genero </h3>
+        <div><label for="gender"> 
+         <input type="radio" name="gender" id="gender"
+            value="1" checked/>
+           Mujer
+        </label>
+        </div>
+        <div><label for="gender"> 
+        <input type="radio" name="gender" id="gender"
+            value="1" checked/>
+            Hombre
+        </label>
+        </div>
+        <div><label for="gender"> 
+        <input type="radio" name="gender" id="gender"
+            value="1" checked/>
+            No Binario
+        </label>
+        </div>
+
+
+        <div><label for="offer"> 
+            <input type="checkbox" name="offert" id="offert"
+                value="1" />
+                Quiero que me envies novedades y ofertas de Spotify
+            </label>
+            </div>
+        <div><label for="data"> 
+            <input type="checkbox" name="data" id="data"
+                value="1" />
+                Compartir mis datos de registro con los proveedores de contenidos de Spotify para fines de marketing. Ten encuenta que los datos pueden ser transferidos a un pais de afuera del EE tal y como se recoge en nuestra politica de privacidad.
+            </label>
+            </div>
+        
+        <input type="Submit" value="Registrarte" />
+
+    </fieldset>
+       
+</body>
+</html>
